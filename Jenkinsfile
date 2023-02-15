@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 python3 helloworld.py
-                echo "-----------------------------------------"
+                echo "------------------------------------0-----"
                 cd myapp
                 pip install -r requirements.txt
                 '''
