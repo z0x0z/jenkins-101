@@ -4,16 +4,13 @@ pipeline {
             label 'docks-python'
             }
       }
-    triggers {
-        pollSCM '* * * * *'
-    }
     stages {
         stage('Build') {
             steps {
                 echo "Building.."
                 sh '''
                 python3 helloworld.py
-                echo "--------------------------0----0------0-----"
+                echo "--------------------4------0----0------0-----"
                 cd myapp
                 pip install -r requirements.txt
                 '''
