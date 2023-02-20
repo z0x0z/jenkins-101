@@ -8,6 +8,7 @@ pipeline {
                 python3 helloworld.py
                 echo "-------------------------------------1"
                 cd myapp
+                pip3 install fire
                 '''
             }
         }
