@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docks-python'
+            label 'docks-agent'
             }
       }
     stages {
