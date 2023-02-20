@@ -8,7 +8,6 @@ pipeline {
                 python3 helloworld.py
                 echo "-------------------------------------1"
                 cd myapp
-                pip install -r requirements.txt
                 '''
             }
         }
