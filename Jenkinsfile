@@ -1,9 +1,5 @@
 pipeline {
-    agent { 
-        node {
-            label 'docks-python'
-            }
-      }
+    agent any
     stages {
         stage('Build') {
             steps {
