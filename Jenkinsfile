@@ -6,7 +6,7 @@ pipeline {
                 echo "Building..."
                 sh '''
                 python3 helloworld.py
-                echo "-------------------------------------1"
+                echo "-------------------------------------"
                 cd myapp
                 pip3 install fire
                 '''
